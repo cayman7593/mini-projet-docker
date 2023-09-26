@@ -7,7 +7,7 @@ services:
     ports:
       - 8500:5000
     volumes:
-      - /home/vagrant/bootcamp15/mini-projet-docker/simple_api/student_age.json:/data/student_age.json
+      - /simple_api/student_age.json:/data/student_age.json
     networks:
       - studentlist      
 
